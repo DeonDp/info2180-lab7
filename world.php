@@ -1,7 +1,7 @@
 <?php
 
-$host = 'localhost';
-$username = 'root';
+$host = getenv('IP');
+$username = getenv('C9_USER');
 $password = '';
 $dbname = 'world';
 
